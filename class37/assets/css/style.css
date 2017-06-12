@@ -1,0 +1,92 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.team-bg{
+    background-image: url(../img/team.jpg);
+    background-position: center top;
+    background-size: cover;
+    height: 300px;
+    margin-bottom: 40px;
+}
+
+.section-tittle {
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 69px;
+    position: relative;
+    text-align: right;
+    text-transform: uppercase;
+    transform: rotate(270deg);
+}
+.section-tittle::before {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    position: absolute;
+    right: 0;
+    top: -30px;
+    width: 70px;
+}
+
+.member-info {
+    border: 1px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 300;
+     padding-bottom: 20px;
+}
+
+
+.member-info h3 {
+    background: #fff none repeat scroll 0 0;
+    display: inline-block;
+    font-size: 26px;
+    
+}
+
+.member-name {
+    margin-top: -10px;
+}
+.member-name h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    padding: 0 15px;
+}
+.col-md-4:nth-child(2) .single-team-membar {
+    margin-top: 115px;
+}
+.section-padding {
+    padding: 80px 0;
+}
+
