@@ -1,0 +1,160 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+.single-slide-item{background-image: url(../img/food_plate.jpg);}
+.single-slide-item .slide-2{background-image: url(../img/food_plate.jpg);}
+
+.logo img {
+    left: 0;
+    max-width: 130px;
+    position: absolute;
+    top: 0;
+}
+.logo a {
+    color: #333;
+}
+.logo {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    padding-left: 135px;
+    padding-top: 20px;
+    position: relative;
+}
+
+.logo span {
+    display: block;
+    font-size: 80%;
+    font-style: italic;
+    font-weight: 400;
+}
+.write-contact-box {
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 16px;
+    padding-left: 30px;
+    position: relative;
+    text-align: left;
+}
+.write-contact-box i.fa {
+    font-size: 30px;
+    left: 0;
+    position: absolute;
+    top: 1px;
+}
+.write-contact-box a {
+    color: #333;
+}
+.header-area {
+    left: 0;
+    padding: 20px 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+.single-slide-item {
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 100px;
+    padding-top: 180px;
+}
+.slide-text {
+    font-size: 20px;
+    padding: 50px 100px 50px 50px;
+    position: relative;
+    z-index: 1;
+}
+.slide-text::after {
+    background: #fff none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.slide-text h2 {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.btn {
+    background: #ef800d none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+}
+.slide-text .btn {
+    margin-top: 20px;
+}
+
+.homepage-slides .owl-nav div {
+    font-size: 50px;
+    left: 50px;
+    line-height: 60px;
+    margin-top: -30px;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    transition: all 3s ease 0s;
+}
+.homepage-slides .owl-nav div.owl-next {
+    left: auto;
+    right: 50px;
+}
+
+.homepage-slides:hover .owl-nav div {
+    opacity: 0.6;
+}
+.homepage-slides .owl-dots div {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 50%;
+    display: inline-block;
+    height: 15px;
+    margin: 5px;
+    width: 15px;
+}
+.homepage-slides .owl-dots div.active {
+    background: #cf800d none repeat scroll 0 0;
+}
+
+.homepage-slides .owl-dots {
+    bottom: 30px;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+}
