@@ -1,0 +1,140 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+.section-bg{background-image: url(../img/images.jpg);}
+
+.section-padding {
+    background-position: center top;
+    background-size: cover;
+    padding: 100px 0;
+    position: relative;
+}
+
+.price-box {
+    box-shadow: 0 0 20px #555;
+    overflow: hidden;
+}
+.single-price-box {
+    position: relative;
+    z-index: 1;
+    float: left;
+    width: 33.333%;
+}
+.single-price-box:after{
+    position: absolute;
+    right: 0;
+    top:0;
+    width: 1px;
+    height: 100%;
+    content: "";
+    background:#333;
+    opacity: .2;
+}
+.single-price-box:last-child::after {
+    display: none;
+}
+
+.price-box-image {
+    display: table;
+    height: 200px;
+    width: 100%;
+}
+.price-box-image img {
+    max-height: 180px;
+    max-width: 200px;
+}
+.price-box-img-wrap {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+}
+.price-box-inn {
+    background: #fff none repeat scroll 0 0;
+    color: #3c76c0;
+    padding: 30px;
+}
+.price-box-inn h2 {
+    color: #3c76c0;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.price-content span {
+    color: #d25529;
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 800;
+    position: relative;
+}
+.price-content span::before {
+    content: "$";
+    font-size: 20px;
+    left: -17px;
+    position: absolute;
+    top: 0;
+}
+.price-content span::after {
+    content: "/mo";
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+.price-box-inn h3 {
+    padding-left: 17px;
+    text-align: center;
+}
+.price-box-inn ul {
+    font-size: 15px;
+    line-height: 26px;
+    list-style: outside none none;
+    margin: 0 0 30px;
+    padding: 0;
+}
+.box-btn {
+    background: #3c76c0 none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 30px;
+    text-transform: uppercase;
+}
+.box-btn:hover, .box-btn.active:hover {
+    background: #333 none repeat scroll 0 0;
+    color: #fff;
+}
+a {
+    transition: all 0.5s ease 0s;
+}
+.box-btn.active {
+    background: #d25529 none repeat scroll 0 0;
+}
