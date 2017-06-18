@@ -1,0 +1,162 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+body {
+    font-family: "Oswald",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+a:hover {
+    text-decoration: none;
+}
+.section-padding {
+    padding: 70px 0;
+}
+.section-padding.dark-bg {
+    background: #353535 none repeat scroll 0 0;
+}
+.trailor-text {
+    color: #bbbbbb;
+    display: flex;
+    flex-direction: column;
+    height: 518px;
+    justify-content: center;
+}
+.trailor-text h2 {
+    color: #fff;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 50px;
+    margin-bottom: 30px;
+    padding-bottom: 32px;
+    position: relative;
+    text-transform: uppercase;
+}
+.bordered-btn {
+    border: 2px solid #ff5151;
+    color: #bbb;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 30px;
+    padding: 12px 20px;
+    text-transform: uppercase;
+    transition: all 0.4s ease 0s;
+    width: 211px;
+}
+.bordered-btn i {
+    float: right;
+    font-size: 13px;
+    padding-top: 8px;
+    transition: all 0.5s ease 0s;
+}
+.bordered-btn:hover {
+    color: #fff;
+}
+.bordered-btn:hover i {
+    margin-right: -10px;
+    padding-left: 10px;
+}
+.trailor-text h2::after {
+    background: #ff5151 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 30px;
+}
+.trailor-info {
+    position: relative;
+}
+.colored-pricing-box {
+    background: #ff5151 none repeat scroll 0 0;
+    color: #fff;
+    height: 300px;
+    padding-top: 60px;
+    position: absolute;
+    right: 150px;
+    text-align: center;
+    top: 0;
+    width: 220px;
+    z-index: 1;
+}
+.colored-pricing-box p {
+    opacity: 0.7;
+}
+.colored-pricing-box p.price-text {
+    font-size: 35px;
+    line-height: 0.8;
+    margin: 0;
+    opacity: 1;
+}
+.absolute-shopping-cart {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 0 20px #777;
+    color: #333;
+    font-size: 18px;
+    height: 50px;
+    left: -20px;
+    line-height: 50px;
+    position: absolute;
+    text-align: center;
+    top: 50px;
+    width: 50px;
+}
+.trailor-info img {
+    padding-top: 161px;
+    position: relative;
+    z-index: 2;
+}
+.featured-trailor-carousel .owl-dots div:nth-child(1) span::before {
+    content: "01";
+}
+.featured-trailor-carousel .owl-dots div:nth-child(2) span::before {
+    content: "02";
+}
+.featured-trailor-carousel .owl-dots div:nth-child(3) span::before {
+    content: "03";
+}
+.featured-trailor-carousel .owl-dots div {
+    border-left: 2px solid #3d3d3d;
+    color: #7b7b7b;
+    padding: 20px 10px;
+}
+.featured-trailor-carousel .owl-dots div.active {
+    border-color: red;
+}
+.featured-trailor-carousel .owl-dots {
+    margin-top: -102px;
+    position: absolute;
+    right: -100px;
+    top: 50%;
+}
