@@ -1,0 +1,100 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+body {
+    font-family: "Droid Serif",serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+a:hover {
+    text-decoration: none;
+}
+.user-avater img {
+    border-radius: 50%;
+    margin: 0 auto 30px;
+    max-width: 100px;
+}
+.single-testimonial-item {
+    color: #fff;
+    font-size: 22px;
+    font-style: italic;
+    line-height: 32px;
+    text-align: center;
+}
+.single-testimonial-item h4 {
+    color: #a4a5a4;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.single-testimonial-item h4 span {
+    display: block;
+    font-size: 80%;
+    font-weight: 400;
+    margin-bottom: 0;
+    margin-top: 7px;
+}
+.section-padding {
+    padding: 100px 0;
+}
+.testimonial-bg {
+    background-color: #333;
+    background-image: url("../img/bg1.jpg");
+}
+.testimonial-carousel .owl-dots {
+    margin-top: 20px;
+    text-align: center;
+}
+.testimonial-carousel .owl-dots div {
+    background: #2d4451 none repeat scroll 0 0;
+    border-radius: 50%;
+    display: inline-block;
+    height: 15px;
+    margin: 0 8px;
+    width: 15px;
+}
+.testimonial-carousel .owl-dots div.active {
+    background: #fff none repeat scroll 0 0;
+}
+.testimonial-carousel::before, .testimonial-carousel::after {
+    color: #fff;
+    font-family: "FontAwesome";
+    font-size: 30px;
+    position: absolute;
+}
+.testimonial-carousel::before {
+    content: "";
+    left: -50px;
+    top: 140px;
+}
+.testimonial-carousel::after {
+    bottom: 140px;
+    content: "";
+    right: -50px;
+}
