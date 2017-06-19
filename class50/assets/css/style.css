@@ -1,0 +1,141 @@
+/* Base CSS */
+
+@import "https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i";
+* {
+    margin: 0;
+    padding: 0;
+}
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus {
+    outline: 0 solid;
+}
+img {
+    height: auto;
+    max-width: 100%;
+}
+a:hover, a:focus {
+    border: medium none;
+    outline: medium none;
+    text-decoration: none;
+}
+body {
+    font-family: "Roboto",sans-serif;
+}
+.listing-box-bg-1 {
+    background-image: url("../img/food.jpg");
+}
+.listing-box-bg-2 {
+    background-image: url("../img/animals.jpg");
+}
+.listing-box-bg-3 {
+    background-image: url("../img/transport.jpg");
+}
+
+.section-title h2 {
+    font-size: 28px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.section-title p {
+    color: #666;
+    margin-bottom: 25px;
+}
+.section-title p span {
+    color: #fb002b;
+}
+.section-padding {
+    padding: 60px 0;
+}
+.single-listing-box {
+    background-color: #ddd;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px;
+    color: #fff;
+    height: 300px;
+    position: relative;
+    z-index: 1;
+    margin: 10px;
+}
+.single-listing-box::after {
+    background: #333 none repeat scroll 0 0;
+    border-radius: 10px;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.listing-content {
+    bottom: 35px;
+    left: 10%;
+    position: absolute;
+    width: 80%;
+}
+.listing-content a {
+    border: 1px solid;
+    border-radius: 50px;
+    color: #fff;
+    display: inline-block;
+    font-weight: 700;
+    padding: 6px 25px;
+    text-transform: capitalize;
+    transition: all 0.3s ease 0s;
+}
+.listing-content a:hover {
+    background: #fb0064 none repeat scroll 0 0;
+    border: 1px solid #fb0064;
+}
+.listing-carousel-wrapper.owl-carousel .owl-stage-outer {
+    overflow: inherit;
+}
+.listing-carousel-area {
+    overflow-x: hidden;
+}
+.listing-carousel-wrapper {
+    position: relative;
+}
+.listing-carousel-wrapper::before, .listing-carousel-wrapper::after {
+    background: #fff none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: -500%;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 500%;
+    z-index: 1;
+}
+.listing-carousel-wrapper::after {
+    left: auto;
+    right: -500%;
+}
+.listing-carousel-wrapper .owl-controls .owl-dots div {
+    border: 1px solid #bfbfbf;
+    border-radius: 50%;
+    display: inline-block;
+    height: 12px;
+    margin: 5px;
+    width: 12px;
+}
+.listing-carousel-wrapper .owl-controls .owl-dots div.active {
+    background: #bfbfbf none repeat scroll 0 0;
+}
+.listing-carousel-wrapper .owl-controls .owl-dots {
+    margin-top: 20px;
+    text-align: center;
+}
