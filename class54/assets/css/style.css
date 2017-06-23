@@ -1,0 +1,113 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.mainmenu {
+    background: gray none repeat scroll 0 0;
+}
+.mainmenu ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.mainmenu li {
+    display: inline-block;
+}
+.mainmenu li a {
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 20px;
+    text-transform: uppercase;
+}
+.mainmenu li {
+    position: relative;
+}
+.mainmenu li ul {
+    background: dimgrey none repeat scroll 0 0;
+    left: 20px;
+    opacity: 0;
+    position: absolute;
+    top: 66px;
+    transition: all 0.3s ease 0s;
+    visibility: hidden;
+    width: 180px;
+    z-index: 2;
+}
+.mainmenu li ul a {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-transform: capitalize;
+    transition: all 0.5s ease 0s;
+}
+.mainmenu li:hover ul {
+    
+    opacity: 1;
+    visibility: visible;
+}
+.mainmenu ul li:hover > a {
+    background: white none repeat scroll 0 0;
+    color: black;
+}
+.mainmenu li ul li {
+    display: block;
+}
+.content {
+    background: buttonface none repeat scroll 0 0;
+    font-size: 19px;
+    line-height: 1.8;
+    padding: 50px 0 50px 10px;
+}
+.footer {
+    background: gray none repeat scroll 0 0;
+    font-size: 16px;
+    padding: 15px;
+    text-align: center;
+}
+.mainmenu ul ul li ul {
+    left: 180px;
+    
+}
+
+
+
+.mainmenu ul ul li:hover > ul {
+    left: 180px;
+    top: 0;
+     opacity: 1;
+    visibility: visible;
+}
+
+.mainmenu li:hover ul ul{
+    opacity: 0;
+    visibility: hidden;
+}
