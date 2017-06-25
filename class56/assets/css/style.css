@@ -1,0 +1,147 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+body.theme-2 { background: rgba(0, 0, 0, 0) linear-gradient(to right, #6f8ca1 0px, #5f87a5 40%, #81839b 68%, #a57974 100%) repeat scroll 0 0;
+}
+body.theme-1 {
+    background-image: url(../img/bg1.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+html, .theme-1 {
+    height: 100%;
+}
+.site-wrap {
+    height: 100%;
+}
+.site-wrap-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.site-wrap-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    position: relative;
+}
+
+.header-area {
+    left: 0;
+    padding: 50px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.footer-area {
+    border-top: 1px solid #e5dfe4;
+    bottom: 0;
+    left: 0;
+    padding: 15px;
+    position: absolute;
+    width: 100%;
+}
+h1, h2, h3 {
+    font-weight: 400;
+}
+.logo a {
+    color: #252c30;
+}
+.mainmenu {
+    font-size: 20px;
+    text-align: right;
+}
+.mainmenu a {
+    color: #252c30;
+}
+.mainmenu ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.mainmenu li {
+    display: inline-block;
+    padding-left: 30px;
+}
+.section-contant {
+    color: #817c82;
+    font-size: 18px;
+    line-height: 1.6;
+    padding-left: 50px;
+    width: 50%;
+}
+.section-contant h3 {
+    font-size: 35px;
+    line-height: 36px;
+    margin-bottom: 20px;
+}
+.section-contant a {
+    color: #7b6078;
+    font-weight: 700;
+}
+
+.social-icon {
+    padding-right: 35px;
+    text-align: right;
+}
+.social-icon a {
+    color: #b5acb3;
+    font-size: 30px;
+    padding-left: 10px;
+}
+.copyright-text {
+    margin: 0;
+    padding-left: 35px;
+    padding-top: 12px;
+}
+
+
+
+.theme-2 .site-wrap{background-image: url(../img/bg1.jpg);}
+
+.theme-2 .header-area {
+    position: relative;
+}
+.theme-2 .footer-area {
+    margin-top: 50px;
+    position: relative;
+}
+.theme-2 .site-wrap {
+    background-color: #ddd;
+    background-position: center center;
+    background-size: cover;
+    margin: 5%;
+    height: 100%
+}
+
