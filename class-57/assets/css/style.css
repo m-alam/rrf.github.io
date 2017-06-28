@@ -1,0 +1,151 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-padding {
+    padding: 80px 0;
+}
+.section-title {
+    margin-bottom: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.section-title h2 {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.tistimonial-top img {
+    display: inline-block;
+    margin-top: -30px;
+    max-width: 120px;
+}
+.tistimonial-top h3 {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 30px;
+    text-align: left;
+    text-transform: uppercase;
+}
+.tistimonial-top {
+    padding-bottom: 50px;
+    text-align: center;
+}
+.tistimonial-top > h3 span {
+    display: inline-block;
+    font-size: 70%;
+    opacity: 0.5;
+    padding-top: 10px;
+    text-transform: none;
+}
+.single-testimonial-item {
+    box-shadow: 0 0 10px #f1f1f1;
+    color: #000;
+    font-size: 15px;
+    line-height: 1.8;
+    padding: 80px;
+}
+
+
+
+.testimonial-author-name img {
+    border-radius: 50px;
+    height: 80px;
+    margin-top: -16px;
+    width: 80px;
+}
+.testimonial-author-name {
+    height: 250px;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.testimonial-author-name h3 {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 170px;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+.testimonial-author-name h3 span {
+    display: inline-block;
+    font-size: 80%;
+    opacity: 0.5;
+    padding-top: 10px;
+    text-transform: none;
+}
+.testimonial-author-name a {
+    color: #333;
+}
+.testimonial-author-name li {
+    margin-bottom: 20px;
+    padding-top: 15px;
+    opacity: .5;
+}
+.testimonial-author-name li.active{
+    opacity: 1;
+}
+.testimonial-author-name {
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.testimonial-wrapper {
+    position: relative;
+}
+.testimonial-right-title {
+    bottom: 139px;
+    color: #ecebeb;
+    font-size: 50px;
+    left: -260px;
+    position: absolute;
+    text-transform: uppercase;
+    transform: rotate(270deg);
+    width: 450px;
+    z-index: 1;
+}
+.testimonial-right-title::after {
+    background: #ebeceb none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 100%;
+}
+.testimonial-right-title span {
+    background: #fff none repeat scroll 0 0;
+    padding-right: 10px;
+    position: relative;
+    z-index: 2;
+}
