@@ -1,0 +1,129 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.right-side{background-image: url(../img/hero-area-right-bg.jpg);}
+
+
+.left-side {
+    background: #999 none repeat scroll 0 0;
+    height: 100%;
+    position: fixed;
+    width: 20%;
+   
+    padding: 30px;
+}
+.logo {
+    color: #fff;
+    margin: 85px 0;
+    position: relative;
+    text-align: center;
+    z-index: 2;
+}
+.right-side {
+    display: table;
+    height: 100%;
+    margin-left: 20%;
+    width: 80%;
+    background-position: center;
+    background-size: cover;
+}
+html, body {
+    height: 100%;
+}
+.right-side-rap {
+    color: #fff;
+    display: table-cell;
+    font-size: 20px;
+    padding: 10%;
+    vertical-align: middle;
+}
+.right-side-rap h2 {
+    font-size: 60px;
+}
+.right-side-rap h2 span {
+    color: yellow;
+}
+.box-btn {
+    background: whitesmoke none repeat scroll 0 0;
+    border-radius: 50px;
+    color: #999;
+    display: inline-block;
+    margin-top: 50px;
+    padding: 10px 20px;
+}
+.logo::before {
+    background: #ffce43 none repeat scroll 0 0;
+    border-radius: 50%;
+    content: "";
+    height: 150px;
+    left: 50%;
+    margin-left: -75px;
+    margin-top: -75px;
+    opacity: 0.2;
+    position: absolute;
+    top: 50%;
+    width: 150px;
+    z-index: -1;
+}
+.menu {
+    list-style: outside none none;
+    margin: 0 0 0 55px;
+    padding: 0;
+}
+
+.menu li a {
+    color: #fff;
+    display: block;
+    font-weight: 700;
+    padding: 15px 0;
+    text-transform: uppercase;
+    
+}
+.menu li a:hover {
+    color: yellow;
+}
+.social-link {
+    bottom: 0;
+    position: absolute;
+   padding-left: 20px;
+}
+.social-link a {
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px;
+    
+}
+.social-link a:hover {
+    color: #ffce43;
+}
+
